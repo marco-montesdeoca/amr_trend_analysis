@@ -57,7 +57,7 @@ TOPIC_LABELS = {
 }
 
 # --- Load the analyzed data ---
-df = load_data('./data/analyzed_antibiotic_resistance_data.csv')
+df = load_data('./reduced_analyzed_antibiotic_resistance_data.csv')
 
 # --- Sidebar for filters ---
 st.sidebar.header("Analysis Filters")
